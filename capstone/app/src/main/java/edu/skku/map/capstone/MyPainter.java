@@ -7,8 +7,11 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Path;
 import android.os.Environment;
+import android.util.AttributeSet;
 import android.view.MotionEvent;
+import android.view.VelocityTracker;
 import android.view.View;
+import android.widget.Button;
 import android.widget.Toast;
 
 import java.io.BufferedWriter;
@@ -22,7 +25,7 @@ import java.util.Date;
 
 public class MyPainter extends View {
     String foldername =getContext().getFilesDir().getAbsolutePath() +"/TestLog";
-    final static String filename = "logfile.txt";
+    final static String filename = "DragandDrop.txt";
 
     private Paint paint = new Paint();
     //여러가지의 그리기 명령을 모았다가 한번에 출력해주는
@@ -34,10 +37,18 @@ public class MyPainter extends View {
     public MyPainter(Context context){
         super(context);
     }
+    public MyPainter(Context context, AttributeSet attributeSet){
+        super(context,attributeSet);
+    }
+    @Override
+    protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
+        super.onMeasure(widthMeasureSpec, heightMeasureSpec);
+        setMeasuredDimension(1000,1500);
+    }
 
     @Override
     protected void onDraw(Canvas canvas) { // 화면을 그려주는 메서드
-        paint.setColor(Color.BLACK);
+        paint.setColor(Color.YELLOW);
         //STROKE속성을 이용하여 테두리...선...
         paint.setStyle(Paint.Style.STROKE);
         //두께
@@ -50,7 +61,7 @@ public class MyPainter extends View {
         x = (int)event.getX();
         y = (int)event.getY();
         String contents;
-        long on, off;
+        long on, off, move;
 
         switch(event.getAction()){
             case MotionEvent.ACTION_DOWN:
@@ -61,8 +72,12 @@ public class MyPainter extends View {
                 path.moveTo(x,y);
                 break;
             case MotionEvent.ACTION_MOVE:
+                move = System.currentTimeMillis()*1000;
                 x = (int)event.getX();
                 y = (int)event.getY();
+                contents = "X="+x+", Y="+y+", T="+move+"\n";
+                WriteTextFile(foldername, filename, contents);
+                Toast.makeText(getContext(), contents, Toast.LENGTH_SHORT).show();
                 path.lineTo(x,y);
                 break;
 
@@ -70,6 +85,7 @@ public class MyPainter extends View {
                 off = System.currentTimeMillis()*1000;
                 contents = "X="+x+", Y="+y+", T="+off+"\n";
                 WriteTextFile(foldername, filename, contents);
+                WriteTextFile(foldername, filename, "\n\n");
                 Toast.makeText(getContext(), contents, Toast.LENGTH_SHORT).show();
                 break;
         }
@@ -83,7 +99,7 @@ public class MyPainter extends View {
         try{
             File dir = new File (foldername);
             //디렉토리 폴더가 없으면 생성함
-            if(!dir.exists()){
+            if(dir.exists()){
                 dir.mkdirs();
             }
             //파일 output stream 생성
