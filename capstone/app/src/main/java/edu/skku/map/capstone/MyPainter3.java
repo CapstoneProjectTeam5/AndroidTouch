@@ -18,9 +18,17 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
 
-public class MyPainter2 extends View {
-    String foldername =getContext().getFilesDir().getAbsolutePath() +"/TestLog";
-    final static String filename = "SingleTap.txt";
+public class MyPainter3 extends View {
+
+
+    public MyPainter3(Context context) {
+        super(context);
+    }
+
+    public MyPainter3(Context context, @Nullable AttributeSet attrs) {
+        super(context, attrs);
+    } String foldername =getContext().getFilesDir().getAbsolutePath() +"/TestLog";
+    final static String filename = "DoubleTap.txt";
 
     private Paint paint = new Paint();
     //여러가지의 그리기 명령을 모았다가 한번에 출력해주는
@@ -29,17 +37,9 @@ public class MyPainter2 extends View {
 
     private int x,y;
 
-    public MyPainter2(Context context) {
-        super(context);
-    }
-
-    public MyPainter2(Context context, @Nullable AttributeSet attrs) {
-        super(context, attrs);
-    }
-
     @Override
     protected void onDraw(Canvas canvas) { // 화면을 그려주는 메서드
-        paint.setColor(Color.RED);
+        paint.setColor(Color.BLUE);
         //STROKE속성을 이용하여 테두리...선...
         paint.setStyle(Paint.Style.STROKE);
         //두께
@@ -81,6 +81,7 @@ public class MyPainter2 extends View {
         invalidate();
         return true;
     }
+
     //텍스트내용을 경로의 텍스트 파일에 쓰기
     public void WriteTextFile(String foldername, String filename, String contents){
         try{
@@ -105,7 +106,4 @@ public class MyPainter2 extends View {
 
         }
     }
-
-
-
 }

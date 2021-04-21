@@ -40,11 +40,7 @@ public class MyPainter extends View {
     public MyPainter(Context context, AttributeSet attributeSet){
         super(context,attributeSet);
     }
-    @Override
-    protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
-        super.onMeasure(widthMeasureSpec, heightMeasureSpec);
-        setMeasuredDimension(1000,1500);
-    }
+
 
     @Override
     protected void onDraw(Canvas canvas) { // 화면을 그려주는 메서드

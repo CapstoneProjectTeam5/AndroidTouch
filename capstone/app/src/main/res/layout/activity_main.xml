@@ -7,11 +7,10 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-
     <Button
         android:id="@+id/button"
-        android:layout_width="108dp"
-        android:layout_height="68dp"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
         android:layout_gravity="center"
         android:layout_marginTop="10dp"
         android:backgroundTint="#ffdd1c"
@@ -19,6 +18,15 @@
 
     <edu.skku.map.capstone.MyPainter
         android:id="@+id/mypainter"
+        android:layout_width="match_parent"
+        android:layout_height="220dp" />
+
+    <edu.skku.map.capstone.MyPainter2
+        android:id="@+id/mypainter2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+    <edu.skku.map.capstone.MyPainter3
+        android:id="@+id/mypainter3"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 </LinearLayout>

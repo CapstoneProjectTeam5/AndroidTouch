@@ -54,15 +54,13 @@ public class MainActivity extends AppCompatActivity {
 
         MyPainter mp = new MyPainter(this);
         mp = (MyPainter) findViewById(R.id.mypainter);
-        mp.setBackgroundDrawable(getResources().getDrawable(R.drawable.picture1));
-
-        btn1.setOnClickListener(new View.OnClickListener(){
-
-            @Override
-            public void onClick(View v) {
-
-            }
-        });
+        mp.setBackgroundDrawable(getResources().getDrawable(R.drawable.pic1));
+        MyPainter2 mp2 = new MyPainter2(getApplicationContext());
+        mp2 = (MyPainter2) findViewById(R.id.mypainter2);
+        mp2.setBackgroundDrawable(getResources().getDrawable(R.drawable.pic2));
+        MyPainter3 mp3 = new MyPainter3(getApplicationContext());
+        mp3 = (MyPainter3) findViewById(R.id.mypainter3);
+        mp3.setBackgroundDrawable(getResources().getDrawable(R.drawable.pic3));
 
     }
 
