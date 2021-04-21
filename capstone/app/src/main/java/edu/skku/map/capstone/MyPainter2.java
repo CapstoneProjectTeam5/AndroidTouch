@@ -59,7 +59,7 @@ public class MyPainter2 extends View {
                 on = System.currentTimeMillis()*1000;
                 contents = "X="+x+", Y="+y+", T="+on+"\n";
                 WriteTextFile(foldername, filename, contents);
-                Toast.makeText(getContext(), contents, Toast.LENGTH_SHORT).show();
+       //         Toast.makeText(getContext(), contents, Toast.LENGTH_SHORT).show();
                 path.moveTo(x,y);
                 break;
             case MotionEvent.ACTION_MOVE:
@@ -74,7 +74,7 @@ public class MyPainter2 extends View {
                 contents = "X="+x+", Y="+y+", T="+off+"\n";
                 WriteTextFile(foldername, filename, contents);
                 WriteTextFile(foldername, filename, "\n\n");
-                Toast.makeText(getContext(), contents, Toast.LENGTH_SHORT).show();
+       //         Toast.makeText(getContext(), contents, Toast.LENGTH_SHORT).show();
                 break;
         }
         //View의 onDraw()를 호출하는 메소드...
@@ -98,7 +98,7 @@ public class MyPainter2 extends View {
 
             writer.close();
             fos.close();
-            Toast.makeText(getContext(), "저장완료", Toast.LENGTH_SHORT).show();
+      //      Toast.makeText(getContext(), "저장완료", Toast.LENGTH_SHORT).show();
 
         }catch (IOException e){
             Toast.makeText(getContext(), e.getMessage(), Toast.LENGTH_SHORT).show();

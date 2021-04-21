@@ -43,11 +43,19 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         btn1 = (Button) findViewById(R.id.button);
         String foldername = this.getFilesDir().getAbsolutePath() +"/TestLog";
-        final String filename = "DragandDrop.txt";
+        final String filename1 = "DragandDrop.txt";
+        final String filename2 = "SingleTap.txt";
+        final String filename3 = "DoubleTap.txt";
         try {
-            File init_file = new File (foldername+"/"+filename);
-            if(init_file.exists())
-                init_file.delete();
+            File init_file1 = new File (foldername+"/"+filename1);
+            File init_file2 = new File (foldername+"/"+filename2);
+            File init_file3 = new File (foldername+"/"+filename3);
+            if(init_file1.exists())
+                init_file1.delete();
+            if(init_file2.exists())
+                init_file2.delete();
+            if(init_file3.exists())
+                init_file3.delete();
         }catch (Exception e){
             Toast.makeText(getApplicationContext(), "파일 초기화 실패", Toast.LENGTH_SHORT).show();
         }
