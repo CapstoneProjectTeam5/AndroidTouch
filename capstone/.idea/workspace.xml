@@ -28,14 +28,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aec3b087-f737-4551-8812-79cdc027b770" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/edu/skku/map/capstone/xmlGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/skku/map/capstone/MyPainter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/skku/map/capstone/MyPainter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/skku/map/capstone/MyPainter2.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/skku/map/capstone/MyPainter2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/skku/map/capstone/MyPainter3.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/skku/map/capstone/MyPainter3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week11_exercise/lib/pages/page1.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../week11_exercise/lib/pages/page1.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week11_exercise/lib/pages/page2.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../week11_exercise/lib/pages/page2.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week11_exercise/lib/pages/page3.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../week11_exercise/lib/pages/page3.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week11_exercise/lib/pages/page4.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../week11_exercise/lib/pages/page4.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week9_assignmnet/assets/images/dog1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week9_assignmnet/assets/images/dog2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week9_assignmnet/assets/images/dog3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week9_assignmnet/assets/images/dog4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week9_assignmnet/assets/images/dog5.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
