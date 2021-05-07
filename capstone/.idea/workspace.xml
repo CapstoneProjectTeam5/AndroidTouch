@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="aec3b087-f737-4551-8812-79cdc027b770" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/edu/skku/map/capstone/xmlGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/skku/map/capstone/MyPainter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/skku/map/capstone/MyPainter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/skku/map/capstone/MyPainter2.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/skku/map/capstone/MyPainter2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/skku/map/capstone/MyPainter3.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/skku/map/capstone/MyPainter3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week11_exercise/lib/pages/page1.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../week11_exercise/lib/pages/page1.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week11_exercise/lib/pages/page2.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../week11_exercise/lib/pages/page2.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week11_exercise/lib/pages/page3.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../week11_exercise/lib/pages/page3.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week11_exercise/lib/pages/page4.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../week11_exercise/lib/pages/page4.dart" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="C:\Users\Youngsuh\capstonekey.jks" />
+    <option name="KEY_ALIAS" value="key0" />
+    <option name="BUILD_TARGET_KEY" value="apk" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1rFceOxMeX7oppLFsgj1crTBNML" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ApkExportedModule" value="capstone.app" />
+    <property name="ExportApk.ApkPath" value="C:\Users\Youngsuh\AndroidStudioProjects\capstone\app" />
+    <property name="ExportApk.BuildVariants" value="release" />
+    <property name="ExportApk.SignV1" value="true" />
+    <property name="ExportApk.SignV2" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android-custom-viewC:/Users/Youngsuh/AndroidStudioProjects/capstone/app/src/main/java/edu/skku/map/capstone/MyPainter.java_SELECTED" value="MyPainter" />
+    <property name="android-custom-viewC:/Users/Youngsuh/AndroidStudioProjects/capstone/app/src/main/java/edu/skku/map/capstone/MyPainter2.java_SELECTED" value="MyPainter2" />
+    <property name="android-custom-viewC:/Users/Youngsuh/AndroidStudioProjects/capstone/app/src/main/java/edu/skku/map/capstone/MyPainter3.java_SELECTED" value="MyPainter3" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="multi-representation-previewC:/Users/Youngsuh/AndroidStudioProjects/capstone/app/src/main/java/edu/skku/map/capstone/MyPainter.java_selected" value="Custom views" />
+    <property name="multi-representation-previewC:/Users/Youngsuh/AndroidStudioProjects/capstone/app/src/main/java/edu/skku/map/capstone/MyPainter2.java_selected" value="Custom views" />
+    <property name="multi-representation-previewC:/Users/Youngsuh/AndroidStudioProjects/capstone/app/src/main/java/edu/skku/map/capstone/MyPainter3.java_selected" value="Custom views" />
+    <property name="project.structure.last.edited" value="Variables" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="PsdUISettings">
+    <option name="MODULE_TAB" value="Properties" />
+    <option name="LAST_EDITED_SIGNING_CONFIG" value="debug" />
+    <option name="LAST_EDITED_BUILD_TYPE" value="release" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Youngsuh\AndroidStudioProjects\capstone\app\src\main\java\edu\skku\map\capstone" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Youngsuh\AndroidStudioProjects\capstone\app\src\main\res\drawable" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="capstone.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aec3b087-f737-4551-8812-79cdc027b770" name="Default Changelist" comment="" />
+      <created>1618575372058</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618575372058</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="158" y="91" key="#PSD" timestamp="1620380702385">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="158" y="91" key="#PSD/0.0.1280.689@0.0.1280.689" timestamp="1620380702385" />
+    <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser" timestamp="1618997783835">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser/0.0.1280.689@0.0.1280.689" timestamp="1618997783835" />
+    <state x="93" y="93" width="1095" height="504" key="AVDManager" timestamp="1619009897739">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="93" y="93" width="1095" height="504" key="AVDManager/0.0.1280.689@0.0.1280.689" timestamp="1619009897739" />
+    <state x="740" y="99" key="FileChooserDialogImpl" timestamp="1619058575004">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="740" y="99" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1619058575004" />
+    <state width="594" height="75" key="GridCell.Tab.0.bottom" timestamp="1620380580525">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="594" height="75" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1620380580525" />
+    <state width="594" height="75" key="GridCell.Tab.0.center" timestamp="1620380580525">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="594" height="75" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1620380580525" />
+    <state width="594" height="75" key="GridCell.Tab.0.left" timestamp="1620380580524">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="594" height="75" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1620380580524" />
+    <state width="594" height="75" key="GridCell.Tab.0.right" timestamp="1620380580525">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="594" height="75" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1620380580525" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1619010407062">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.689@0.0.1280.689" timestamp="1619010407062" />
+    <state x="436" y="122" key="chooseDestDirectoryDialog" timestamp="1618999504484">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="436" y="122" key="chooseDestDirectoryDialog/0.0.1280.689@0.0.1280.689" timestamp="1618999504484" />
+    <state x="445" y="258" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1619000379434">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="445" y="258" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.689@0.0.1280.689" timestamp="1619000379434" />
+  </component>
+</project>
