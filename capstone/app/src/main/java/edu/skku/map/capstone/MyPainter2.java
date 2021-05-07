@@ -86,7 +86,7 @@ public class MyPainter2 extends View {
         try{
             File dir = new File (foldername);
             //디렉토리 폴더가 없으면 생성함
-            if(dir.exists()){
+            if(!dir.exists()){
                 dir.mkdirs();
             }
             //파일 output stream 생성

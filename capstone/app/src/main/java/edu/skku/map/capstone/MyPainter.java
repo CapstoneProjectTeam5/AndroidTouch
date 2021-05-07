@@ -64,7 +64,7 @@ public class MyPainter extends View {
                 on = System.currentTimeMillis()*1000;
                 contents = "X="+x+", Y="+y+", T="+on+"\n";
                 WriteTextFile(foldername, filename, contents);
-            //    Toast.makeText(getContext(), contents, Toast.LENGTH_SHORT).show();
+                Toast.makeText(getContext(), contents, Toast.LENGTH_SHORT).show();
                 path.moveTo(x,y);
                 break;
             case MotionEvent.ACTION_MOVE:
@@ -73,7 +73,7 @@ public class MyPainter extends View {
                 y = (int)event.getY();
                 contents = "X="+x+", Y="+y+", T="+move+"\n";
                 WriteTextFile(foldername, filename, contents);
-           //     Toast.makeText(getContext(), contents, Toast.LENGTH_SHORT).show();
+                Toast.makeText(getContext(), contents, Toast.LENGTH_SHORT).show();
                 path.lineTo(x,y);
                 break;
 
@@ -82,7 +82,7 @@ public class MyPainter extends View {
                 contents = "X="+x+", Y="+y+", T="+off+"\n";
                 WriteTextFile(foldername, filename, contents);
                 WriteTextFile(foldername, filename, "\n\n");
-            //    Toast.makeText(getContext(), contents, Toast.LENGTH_SHORT).show();
+                Toast.makeText(getContext(), contents, Toast.LENGTH_SHORT).show();
                 break;
         }
         //View의 onDraw()를 호출하는 메소드...
@@ -95,7 +95,7 @@ public class MyPainter extends View {
         try{
             File dir = new File (foldername);
             //디렉토리 폴더가 없으면 생성함
-            if(dir.exists()){
+            if(!dir.exists()){
                 dir.mkdirs();
             }
             //파일 output stream 생성
